@@ -88,6 +88,7 @@ group :development, :test do
 
   # 高速化
   gem 'spring'
+  gem 'spring-commands-rspec'
 
   # 自動実行(変更監視)
   gem 'guard'
