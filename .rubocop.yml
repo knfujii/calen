@@ -1,0 +1,29 @@
+AllCops:
+  Includes:
+    - config.ru
+    - Rakefile
+  Excludes:
+    - bin/**
+    - config/**
+    - db/**
+    - lib/templates/**
+    - lib/generators/**
+    - spec/factories/**
+    - spec/spec_helper.rb
+    - spec/support/**
+
+# Limit lines to 119 characters.
+LineLength:
+  Max: 119
+
+# Use only ascii symbols in comments.
+AsciiComments:
+  Enabled: false
+
+# Trailing whitespace detected
+TrailingWhitespace:
+  Enabled: false
+
+# Prefer has_many :through to has_and_belongs_to_many.
+HasAndBelongsToMany:
+  Enabled: false
