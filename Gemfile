@@ -40,6 +40,7 @@ gem 'haml-rails'
 #gem 'less-rails'
 #gem 'twitter-bootstrap-rails'
 #gem 'bootstrap-datepicker-rails'
+gem 'fullcalendar-rails'
 
 # 検証
 #gem 'validates_timeliness'
